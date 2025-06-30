@@ -20,21 +20,21 @@ Greetings! This page will link you to some of the projects I have worked on over
 ## Projects
 
 ***[Exotic Option Pricing and Advanced Derivatives Strategies](/Exotic_Options_Pricing/exotic_options.md)***
-<img src="indeximages/exoticoptionprice.png?raw=true" style="width:70%;"/>
+<img src="indeximages/exoticoptionprice.png?raw=true" style="width:20%;"/>
 ---
 
 ***[Deep Learning Portfolio Construction and Quantitative Trading](/Portfolio_Construction_ML/portfolio_ml.md)***
-<img src="indeximages/portopt.png?raw=true" style="width:70%;"/>
+<img src="indeximages/portopt.png?raw=true" style="width:20%;"/>
 ---
 
 ***[Dynamic Credit Migration-Based Trading Framework](/Credit_Migration_Framework/credit_framework.md)***
-<img src="indeximages/credittrading.png?raw=true" style="width:70%;"/>
+<img src="indeximages/credittrading.png?raw=true" style="width:20%;"/>
 ---
 
 ***[WallStreetBets Sentiment Analysis and Market Correlation](/WSB_Sentiment_Analysis/wsb_sentiment.md)***
-<img src="indeximages/wallstreetbets.png?raw=true" style="width:70%;"/>
+<img src="indeximages/wallstreetbets.png?raw=true" style="width:20%;"/>
 ---
 
 ***[Asset Tokenization Platform Blockchain Analytics](/Asset_Tokenization_Platform/tokenization_analytics.md)***
-<img src="indeximages/assettokenization.png?raw=true" style="width:70%;"/>
+<img src="indeximages/assettokenization.png?raw=true" style="width:20%;"/>
 ---

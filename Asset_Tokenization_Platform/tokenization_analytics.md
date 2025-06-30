@@ -23,6 +23,8 @@ https://dune.com/vishwak2000/dashboard-for-race
 
 ### Dashboard Components
 <img src="images/transaction_volume_analysis.png?raw=true" alt="Weekly Transaction Volume and Wallet Rankings" style="width:100%;">
+<img src="images/swap_volume_analysis.png?raw=true" alt="Weekly Swap Volume and Wallet Rankings by Swaps" style="width:100%;">
+
 
 **Core Analytics Modules:**
 - **Transaction Volume Tracking:** 56-week historical analysis of successful transactions

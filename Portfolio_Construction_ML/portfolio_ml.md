@@ -13,7 +13,7 @@ layout: wide_default
 ## Technical Architecture
 
 ### Deep Learning Framework
-<img src="images/architecture_diagram.png?raw=true" alt="DBN+LSTM Architecture" style="width:100%;">
+<img src="Portfolio_Construction_ML/images/architecture_diagram.png?raw=true" alt="DBN+LSTM Architecture" style="width:100%;">
 
 #### Model 1: Asset Price Prediction
 **Input Features:**
@@ -44,9 +44,9 @@ layout: wide_default
 **Benchmark Models:** Ridge Regression, XGBoost
 **Evaluation Metrics:** SMAPE, EVS, MAE, MSLE, MSE, R²
 
-<img src="images/model_comparison_metrics_1.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
-<img src="images/model_comparison_metrics_2.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
-<img src="images/model_comparison_metrics_3.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
+<img src="Portfolio_Construction_ML/images/model_comparison_metrics_1.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
+<img src="Portfolio_Construction_ML/images/model_comparison_metrics_2.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
+<img src="Portfolio_Construction_ML/images/model_comparison_metrics_3.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
 
 #### Statistical Performance Results
 
@@ -59,7 +59,7 @@ layout: wide_default
 **Key Insight:** DBN+LSTM achieved superior performance across all metrics, demonstrating the effectiveness of combining unsupervised feature learning with sequential modeling.
 
 ### Prediction Accuracy Visualization
-<img src="images/dbn_lstm_predictions.png?raw=true" alt="DBN+LSTM Prediction Results" style="width:100%;">
+<img src="Portfolio_Construction_ML/images/dbn_lstm_predictions.png?raw=true" alt="DBN+LSTM Prediction Results" style="width:100%;">
 
 ## Portfolio Optimization Strategies
 
@@ -71,13 +71,13 @@ layout: wide_default
 - Long-only positions (w ≥ 0)
 
 #### Efficient Frontier Analysis
-<img src="images/efficient_frontier.png?raw=true" alt="Efficient Frontier with Maximum Sharpe Portfolio" style="width:100%;">
+<img src="Portfolio_Construction_ML/images/efficient_frontier.png?raw=true" alt="Efficient Frontier with Maximum Sharpe Portfolio" style="width:100%;">
 
 ### Rolling Optimization Results
 **Strategy:** Quarterly rebalancing with 1-year optimization windows
 **Performance Period:** January 2021 - January 2025
 
-<img src="images/portfolio_performance_comparison.png?raw=true" alt="Portfolio vs Benchmark Performance" style="width:100%;">
+<img src="Portfolio_Construction_ML/images/portfolio_performance_comparison.png?raw=true" alt="Portfolio vs Benchmark Performance" style="width:100%;">
 
 #### Performance Metrics
 | Portfolio Type | Sharpe Ratio | Annual Return | Volatility | Max Drawdown |
@@ -133,7 +133,7 @@ ht = ot * tanh(Ct)              # Hidden state
 ## Results and Business Impact
 
 ### Portfolio Performance
-<img src="images/final_portfolio_allocation.png?raw=true" alt="Final Portfolio Allocation" style="width:100%;">
+<img src="Portfolio_Construction_ML/images/final_portfolio_allocation.png?raw=true" alt="Final Portfolio Allocation" style="width:100%;">
 
 **Final Results:**
 - **Total Portfolio Value:** $197,210.75

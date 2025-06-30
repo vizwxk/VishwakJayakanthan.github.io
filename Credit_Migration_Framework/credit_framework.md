@@ -77,8 +77,8 @@ d₂ = d₁ - σ√T
 4. Update using Newton-Raphson method until convergence
 
 ### Model Validation Results
-<img src="images/kmv_validation_hal.png?raw=true" alt="KMV Model Validation - Halliburton" style="width:100%;">
-<img src="images/kmv_validation_hes.png?raw=true" alt="KMV Model Validation - Hess Corporation" style="width:100%;">
+<img src="images/kmv_validation_hal.png?raw=true" alt="KMV Model Validation - Halliburton-HESCORP" style="width:100%;">
+
 
 **Validation Insights:**
 - Our calculated distance-to-default closely follows Bloomberg's proprietary model

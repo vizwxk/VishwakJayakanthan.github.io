@@ -35,6 +35,6 @@ Greetings! This page will link you to some of the projects I have worked on over
 <img src="WSB_Sentiment_Analysis/sentiment_stock_correlation.png?raw=true" style="width:70%;"/>
 ---
 
-***[Asset Tokenization Platform and Blockchain Analytics](/Asset_Tokenization_Platform/tokenization_analytics.md)***
+***[Asset Tokenization Platform Blockchain Analytics](/Asset_Tokenization_Platform/tokenization_analytics.md)***
 <img src="Asset_Tokenization_Platform/blockchain_analytics_dashboard.png?raw=true" style="width:70%;"/>
 ---

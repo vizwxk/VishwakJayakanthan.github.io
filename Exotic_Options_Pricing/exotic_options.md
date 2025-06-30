@@ -47,7 +47,7 @@ layout: wide_default
 ## Results and Analysis
 
 ### Rainbow Options Model Validation
-<img src="images/rainbow_options_comparison.png?raw=true" alt="Rainbow Options Model Comparison" style="width:100%;">
+<img src="Exotic_Options_Pricing/images/rainbow_options_comparison.png?raw=true" alt="Rainbow Options Model Comparison" style="width:100%;">
 
 **Key Findings:**
 - Both Correlated GBM and Ornstein-Uhlenbeck models showed strong agreement in daily option pricing
@@ -55,7 +55,7 @@ layout: wide_default
 - Divergences observed during high volatility periods (2020 pandemic, 2022-2023 debt ceiling crisis)
 
 ### FX Options Model Comparison
-<img src="images/fx_options_heston_vs_gk.png?raw=true" alt="FX Options: Heston vs Garman-Kohlhagen" style="width:100%;">
+<img src="Exotic_Options_Pricing/images/fx_options_heston_vs_gk.png?raw=true" alt="FX Options: Heston vs Garman-Kohlhagen" style="width:100%;">
 
 **Performance Analysis:**
 
@@ -65,7 +65,7 @@ layout: wide_default
 | Garman-Kohlhagen | Low | Good (Constant Vol) | Standard Trading Operations |
 
 ### Chooser Options Analysis
-<img src="images/chooser_options_crr_kou.png?raw=true" alt="Chooser Options: CRR vs KOU Models" style="width:100%;">
+<img src="Exotic_Options_Pricing/images/chooser_options_crr_kou.png?raw=true" alt="Chooser Options: CRR vs KOU Models" style="width:100%;">
 
 **Model Comparison:**
 - **CRR Model:** Binomial approach suitable for European-style exercise

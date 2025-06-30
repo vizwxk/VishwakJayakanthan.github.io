@@ -35,10 +35,6 @@ spark = SparkSession.builder \
     .config("spark.kryoserializer.buffer.max", "1G") \
     .getOrCreate()
 ```
-
-### Data Pipeline Architecture
-<img src="images/data_pipeline_architecture.png?raw=true" alt="Data Processing Pipeline" style="width:100%;">
-
 **Processing Components:**
 1. **Data Ingestion:** Zstandard (.zst) file decompression and parsing
 2. **Data Cleaning:** Text preprocessing and normalization

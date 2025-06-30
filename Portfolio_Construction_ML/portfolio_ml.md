@@ -8,7 +8,7 @@ layout: wide_default
 
 **Objective:** Develop an advanced portfolio management system using Deep Belief Networks (DBN) and Long Short-Term Memory (LSTM) models for asset price prediction, combined with Modern Portfolio Theory optimization and algorithmic trading strategies.
 
-**Innovation:** Integration of unsupervised feature learning (DBN) with sequential modeling (LSTM) for superior financial time series prediction, validated against traditional machine learning approaches.
+**Innovation:** Integration of unsupervised feature learning (DBN) with sequential modeling (LSTM) for  financial time series prediction, validated against traditional machine learning approaches.
 
 ## Technical Architecture
 
@@ -165,18 +165,6 @@ ht = ot * tanh(Ct)              # Hidden state
 - **YFinance:** Real-time market data acquisition
 - **Matplotlib:** Visualization and performance reporting
 
-**Big Data Processing:**
-- **Apache Spark:** Distributed computing for large datasets
-- **PySpark:** Python API for Spark operations
-- **Spark SQL:** Structured data processing
-
-### Infrastructure Requirements
-**Computational Resources:**
-- **Spark Session:** Local cluster with 4 cores
-- **Memory Allocation:** 16GB driver and executor memory
-- **Processing Capacity:** Optimized for large-scale financial data
-- **GPU Acceleration:** CUDA-enabled for deep learning training
-
 ### Code Architecture
 **Key Components:**
 ```python
@@ -240,15 +228,11 @@ class DBNLSTMPipeline:
 ## Conclusions and Future Enhancements
 
 ### Key Achievements
-1. **Superior Prediction Accuracy:** DBN+LSTM outperformed traditional ML models by 15-20%
+1. **Prediction Accuracy:** DBN+LSTM outperformed traditional ML models by 15-20%
 2. **Effective Portfolio Management:** 22.31% CAGR with superior risk-adjusted returns
 3. **Systematic Implementation:** Fully automated pipeline from prediction to execution
 4. **Robust Performance:** Consistent results across different market conditions
 
-### Academic Contributions
-- **Novel Architecture:** First application of DBN+LSTM to portfolio construction
-- **Benchmark Study:** Comprehensive comparison with traditional ML approaches
-- **Open Source Framework:** Reproducible research with documented methodology
 
 ### Future Development
 1. **Real-Time Implementation:** Integration with trading APIs for live execution

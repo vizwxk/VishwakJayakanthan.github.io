@@ -71,27 +71,6 @@ layout: wide_default
 - **CRR Model:** Binomial approach suitable for European-style exercise
 - **KOU Model:** Jump-diffusion capturing extreme market movements and tail events
 
-## Trading Strategy Implementation
-
-### Chooser-FX Hedged Strategy
-**Strategy Components:**
-- **Primary Position:** Chooser options (optimal call/put selection at 6 months)
-- **Hedge Position:** FX options (opposite direction for risk mitigation)
-- **Signal Generation:** 45-day lookback, 30-day holding period
-
-**Risk Management Framework:**
-- Long FX position maintained consistently
-- Chooser position determined by profit margin analysis
-- Negative margin → Short chooser position (downside protection)
-- Positive margin → Long both positions (balanced exposure)
-
-### Strategy Performance
-<img src="images/strategy_pnl.png?raw=true" alt="Chooser-FX Strategy P&L" style="width:100%;">
-
-**Results:**
-- **Risk Mitigation:** Strategy P&L never dropped below zero
-- **Sharpe Ratio:** Achieved superior risk-adjusted returns
-- **Volatility Management:** Effective hedging during market stress periods
 
 ## Business Applications and Insights
 
@@ -157,7 +136,6 @@ Variance: dv(t) = κ(θ - v(t))dt + σ√v(t)dW₂(t)
 
 ### Key Achievements
 1. **Multi-Model Validation:** Successfully validated exotic option pricing across different mathematical frameworks
-2. **Practical Strategy Development:** Created implementable hedging strategy with demonstrated risk management
 3. **Market Stress Analysis:** Captured how extreme events affect option pricing relationships
 
 ### Future Research Directions
@@ -165,10 +143,4 @@ Variance: dv(t) = κ(θ - v(t))dt + σ√v(t)dW₂(t)
 - **Real-Time Implementation:** Develop automated trading systems for strategy execution
 - **Extended Asset Classes:** Apply methodology to cryptocurrency and commodity options
 
-### Academic and Industry Impact
-- **Academic Contribution:** Demonstrated effectiveness of multi-model validation approach
-- **Industry Application:** Practical hedging strategies for institutional portfolio management
-- **Risk Management:** Enhanced understanding of exotic option behavior during market stress
-
----
 **[← Back to Portfolio](../index.md)**

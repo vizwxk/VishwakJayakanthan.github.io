@@ -44,7 +44,9 @@ layout: wide_default
 **Benchmark Models:** Ridge Regression, XGBoost
 **Evaluation Metrics:** SMAPE, EVS, MAE, MSLE, MSE, R²
 
-<img src="images/model_comparison_metrics.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
+<img src="images/model_comparison_metrics_1.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
+<img src="images/model_comparison_metrics_2.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
+<img src="images/model_comparison_metrics_3.png?raw=true" alt="Model Performance Comparison" style="width:100%;">
 
 #### Statistical Performance Results
 
